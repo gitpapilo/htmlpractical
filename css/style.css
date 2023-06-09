@@ -1,2 +1,276 @@
-#work{ background-color: blanchedalmond;
-width:100%;}
+html,
+body,
+header,
+footer {
+  
+    padding: 2%;
+    margin: 1rem;
+    box-sizing: border-box;
+    background-color: darkviolet;
+    font-family:'Roboto', sans-serif;
+    /* font-family: 'Open Sans', sans-serif; */
+    /* font-family: 'Poppins', sans-serif; */
+    /* font-family: 'Roboto', sans-serif; */
+    height: fit-content;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    /* justify-content: center; */
+    /* width: 80%;
+    margin: 10% auto; */
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: ease-in-out;
+    justify-content: center;
+
+  }
+  
+  li a:hover {
+    background-color: #111;
+    color: white;
+    box-shadow: 0 0 10px white
+  }
+
+
+  /* .image{
+
+     display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+
+  } */
+.img{
+  width: 100%;
+  padding: 0%;
+  margin: 0%;
+}
+
+
+.cover-img{
+  width: 100%;
+  padding: 0%;
+  margin: 0%;
+}
+
+  .intro{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    bottom: 10%;
+    transform: translate(-50%, -50%);
+
+  }
+
+  
+  .hireme{ 
+    /* max-width: 100%; */
+  height: auto;
+  /* position: absolute; */
+  }
+
+.hire:hover{
+
+  background-color: #111;
+    color: white;
+    box-shadow: 0 0 10px white;
+
+}
+
+
+.work:hover{
+
+  background-color: #111;
+    color: white;
+    box-shadow: 0 0 10px white;
+
+}
+
+
+.about.img{
+
+  width: 100%;
+  margin: 0%;
+  padding: 0%;
+  
+}
+
+/* .aboutimage{
+
+  max-width: 100%;
+  height: auto;
+  padding: 2px;
+  margin: 1px;
+
+} */
+  
+.contact{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  
+
+}
+
+form{
+  width: 90%;
+  max-width: 600px;
+
+}
+.input-group{
+  margin-bottom: 30px;
+  position: relative;
+
+}
+input, textarea{
+  width: 100%;
+  padding: 10px;
+  outline: 0;
+  border: 1px solid #fff;
+  color: #fff;
+  background: transparent;
+  font-size: 15px;
+}
+label{
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 10px;
+  color: #fff;
+  cursor: text;
+
+}
+button{
+  padding: 10px 0;
+  color: #fff;
+  outline: none;
+  background: transparent;
+  border: 1px solid #fff;
+  width: 100%;
+  cursor: pointer;
+
+}
+input:focus~label,
+input:focus~label,
+textarea:focus~label,
+textarea:valid~label{
+  top: 35px;
+  font-size: 14px;
+}
+
+.row{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;  
+}
+
+.row .input-group{
+  flex-basis: 48%;
+}
+
+#base{
+  font-size: xx-large;
+  text-align: center;
+  color: skyblue;
+  /* text-shadow: navy; */
+  margin: 1em;
+  padding: 1rem;
+}
+
+
+.foot{ display: flex;
+  margin: 1px;
+  padding: 2px;
+justify-content: space-around;
+align-items: flex-start;
+background-color: antiquewhite;
+list-style: decimal;
+position: relative;
+top: 1px;
+bottom: 1px;
+}
+
+.foot ul{ display: flex;
+list-style: decimal;
+margin: 2rem;
+padding: 1em;
+text-decoration: line-through;
+color: antiquewhite;
+}
+
+
+.foot li{
+  
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: ease-in-out;
+    justify-content: center;
+  
+}
+
+.foot li:hover{
+
+    background-color: #111;
+    color: white;
+    box-shadow: 0 0 10px white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
